@@ -12,6 +12,10 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+section.headerphoto {
+    justify-content: center;
+}
+
 a{
     color: cornflowerblue;
 }
