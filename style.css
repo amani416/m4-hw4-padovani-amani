@@ -13,9 +13,10 @@ header {
 
 
 
-section.headerphoto {
-    justify-content: center;
+section.homepagephotos, section.albumcovers, section.portraits {
+    margin-bottom: 50px;
 }
+
 
 a{
     color: cornflowerblue;
