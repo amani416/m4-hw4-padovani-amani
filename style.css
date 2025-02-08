@@ -1,5 +1,5 @@
 body{
-    background-color: tan;
+    background-color: rgb(209, 193, 172);
     color: rgb(75, 75, 75);
     max-width: 900px;
     margin: auto;
@@ -16,11 +16,18 @@ a{
 }
 
 aside nav a {
+    margin: 30px;
     display: block;
     text-align: center;
 }
 
 footer{
     margin: 50px 0;
+    text-align: center;
+}
+
+header nav a {
+    margin-right: 20px;
+    margin-left: 20px;
     text-align: center;
 }
