@@ -1,0 +1,26 @@
+body{
+    background-color: tan;
+    color: rgb(75, 75, 75);
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    margin: 40px 10px 0 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: cornflowerblue;
+}
+
+aside nav a {
+    display: block;
+    text-align: center;
+}
+
+footer{
+    margin: 50px 0;
+    text-align: center;
+}
