@@ -12,6 +12,10 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main{
+    text-align: center;
+}
+
 section.headerphoto {
     justify-content: center;
 }
@@ -21,7 +25,7 @@ a{
 }
 
 aside nav a {
-    margin: 30px;
+    margin: 30px 0 30px 0;
     display: block;
     text-align: center;
 }
