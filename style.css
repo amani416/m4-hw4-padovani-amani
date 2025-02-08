@@ -11,12 +11,13 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-section.homepagephotos, section.albumcovers, section.portraits {
-    margin-bottom: 50px;
+section.homepagephotos {
+    justify-content: center;
 }
 
+section.singingonstage, section.albumcovers, section.potraits {
+    margin-bottom: 50px;
+}
 
 a{
     color: cornflowerblue;
