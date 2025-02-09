@@ -1,7 +1,6 @@
 body{
     background-color: rgb(209, 193, 172);
     color: rgb(75, 75, 75);
-    margin: auto;
 }
 
 header {
@@ -11,6 +10,11 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    color: rgb(60, 72, 60);
+    font-size: 60px;
+}
+
 h2 {
     color: rgb(0, 150, 65);
     font-size: 32px;
@@ -18,15 +22,20 @@ h2 {
 }
 
 section.homepagephotos {
-    justify-content: center;
+    text-align: center;
 }
 
-section.singingonstage, section.albumcovers, section.potraits {
+section.singingonstage, section.albumcovers, section.portraits {
     margin-bottom: 50px;
 }
 
 a{
     color: cornflowerblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
 }
 
 aside nav a {
