@@ -1,14 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    margin: auto;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(209, 193, 172);
     color: rgb(75, 75, 75);
+    line-height: 1.6;
 }
 
 header {
-    margin: 40px 10px 30px 10px;
     text-align: center;
+    padding: 20px 0;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 10px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
 
 h1 {
     color: rgb(60, 72, 60);
@@ -25,12 +58,22 @@ section.homepagephotos {
     text-align: center;
 }
 
-section.singingonstage, section.albumcovers, section.portraits {
+/*section.singingonstage, section.albumcovers, section.portraits {
     margin-bottom: 50px;
+}*/
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 a{
     color: cornflowerblue;
+    text-decoration: none;
 }
 
 a:hover {
@@ -45,8 +88,32 @@ aside nav a {
 }
 
 footer{
-    margin: 50px 0;
     text-align: center;
+    padding: 15px;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 15px;
+    }
 }
 
 
