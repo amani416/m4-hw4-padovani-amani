@@ -11,6 +11,12 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h2 {
+    color: rgb(0, 150, 65);
+    font-size: 32px;
+    margin: 50px 10px 10px 0;
+}
+
 section.homepagephotos {
     justify-content: center;
 }
