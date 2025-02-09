@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(209, 193, 172);
     color: rgb(75, 75, 75);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 header {
@@ -26,7 +27,8 @@ header {
 header h1 a {
     color: white;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 32px;
+    transition: color 0.3s ease-in-out;
 }
 
 nav {
@@ -39,19 +41,20 @@ nav a {
     color: #2d2d2d;
     font-weight: bold;
     margin: 0 15px;
-    transition: 0.3s;
+    transition: color 0.3s ease-in-out;
 }
 
 
 h1 {
     color: rgb(60, 72, 60);
     font-size: 60px;
+    text-align: center;
 }
 
 h2 {
     color: rgb(0, 150, 65);
     font-size: 32px;
-    margin: 50px 10px 10px 0;
+    margin: 40px 0 15px;
 }
 
 section.homepagephotos {
@@ -74,6 +77,7 @@ section {
 a{
     color: cornflowerblue;
     text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
 a:hover {
@@ -103,7 +107,7 @@ footer{
     }
 
     header h1 {
-        font-size: 1.5rem;
+        font-size: 20px;
     }
 
     nav a {
@@ -113,6 +117,14 @@ footer{
 
     section {
         padding: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
     }
 }
 
